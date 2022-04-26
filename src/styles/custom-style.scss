@@ -1,0 +1,115 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card,
+.card-img,
+.card-img-top {
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+
+  align-items: center;
+  color: rgb(30, 26, 26);
+  justify-content: space-between;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: rgb(66, 61, 61);
+  text-decoration: none;
+  color: rgb(59, 52, 52);
+}
+
+.medi-pic {
+  width: 500px;
+  margin-right: 60px;
+}
+
+.medi-container {
+  display: flex;
+  margin: 100px;
+  justify-content: space-between;
+}
+
+.medi-text {
+  width: 700px;
+  text-align: justify;
+}
+
+.grad {
+  padding-top: 10px;
+}
+
+.block {
+  background-color: #99e6ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body {
+  background: #e8cbc0;
+  background: -webkit-linear-gradient(to right, rgb(207, 218, 220), #78c9d0);
+  background: linear-gradient(to right, rgb(207, 218, 220), #78c9d0);
+  min-height: 100vh;
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+.navbar {
+  background-color: #06303a !important;
+}
+
+
+.block2{
+  background-color: #06303A  !important;
+}
+
+
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

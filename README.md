@@ -1,11 +1,2 @@
-npm install -global yarn
-
-npm install -global gatsby-cli
-
-yarn
-
-gatsby develop
-
-
-
-
+Step 1 : npm install
+Step 2 : gatsby develop

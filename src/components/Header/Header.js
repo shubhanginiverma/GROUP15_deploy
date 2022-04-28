@@ -43,6 +43,11 @@ const Header = () => {
               </Link>
             </li>
             <li className="btn text-danger fw-bold">
+              <Link className="text-white fw-bold" to="/map">
+                <h5>COVID-19</h5>
+              </Link>
+            </li>
+            <li className="btn text-danger fw-bold">
               <Link className="text-white fw-bold" to="/about">
                 <h5>About</h5>
               </Link>

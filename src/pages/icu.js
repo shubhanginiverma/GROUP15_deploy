@@ -1,40 +1,18 @@
 import React from "react"
 import Layout from "../components/Layout/Layout"
 import Image from "../components/Images/Images"
+// import Tableau from "./tableau"
 const ICU = () => {
   return (
     <Layout>
       <div className="container py-5">
-        <h2 className="pb-2 border-bottom text-center">ICU</h2>
-        <h3 class="mb-0">
-          {" "}
-          <h2>
-            <b>CRITICAL</b>
-          </h2>
-          <p>
-            <h2>
-              <b>CARE</b>
-            </h2>
-          </p>
-          <p>
-            <h2>
-              <b>UNIT</b>
-            </h2>
-          </p>
-        </h3>
-        {/* <div class="col-auto d-none d-lg-block">
-          <Image
-            className="m-2"
-            style={{
-              height: "200px",
-              width: "200px",
-              borderRadius: "100%",
-            }}
-            filename="ambulance2.jpg"
-            alt="1"
-          />
-        </div> */}
-        <h2 className="pb-2 border-bottom text-center"> </h2>
+        <h2 className="pb-2 border-bottom text-center">CRITICAL CARE UNIT</h2>
+        <div class = "col-md-12 text-center">
+        <a href = "https://public.tableau.com/views/HealthMonitoringTool-WeeklyMonthlyViews_16491824554860/HealthMonitoringDashboard?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=2&navSrc=Parse"
+        target = "_blank">
+          <button type="button" class="btn-info btn-lg btn-block m-5">EMERGENCY ROOM DASHBOARD</button>
+        </a>
+        </div>
         <div class="row mb-2">
           <div class="col-md-12">
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -43,8 +21,7 @@ const ICU = () => {
                 {/* <h3 class="mb-0">Risks </h3> */}
                 {/* <div class="mb-1 text-muted">April 04</div> */}
                 <p class="card-text mb-auto">
-                  This Website is one of the best critical care website in
-                  India. Critical care or Intensive care is a crucial medical
+                  Critical care or Intensive care is a crucial medical
                   specialty caring for patients who are critically ill. They may
                   require support for instability (hypertension/hypotension),
                   airway or respiratory compromise (ventilator support), acute
@@ -245,3 +222,6 @@ const ICU = () => {
 }
 
 export default ICU
+
+
+

@@ -45,7 +45,7 @@ const Modal = () => {
                 <tbody>
                   <tr>
                     <th scope="row">1</th>
-                    <td> Haryana</td>
+                    <td>Haryana</td>
                     <td>Gurugram</td>
                     <td>105010</td>
                   </tr>
@@ -71,7 +71,7 @@ const Modal = () => {
                   <tr>
                     <th scope="row">5</th>
                     <td>Uttar Pradesh</td>
-                    <td>Ludhiana</td>
+                    <td>Lucknow</td>
                     <td>0161-522222</td>
                   </tr>
                 </tbody>

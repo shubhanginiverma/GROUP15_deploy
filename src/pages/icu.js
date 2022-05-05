@@ -6,11 +6,11 @@ const ICU = () => {
   return (
     <Layout>
       <div className="container py-5">
-        <h2 className="pb-2 border-bottom text-center">VITAL MONITORING DASHBOARD</h2>
+        <h2 className="pb-2 border-bottom text-center">CRITICAL CARE UNIT</h2>
         <div class = "col-md-12 text-center">
         <a href = "https://public.tableau.com/views/HealthMonitoringTool-WeeklyMonthlyViews_16491824554860/HealthMonitoringDashboard?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=2&navSrc=Parse"
         target = "_blank">
-          <button type="button" class="btn-info btn-lg btn-block m-5">EMERGENCY ROOM DASHBOARD</button>
+          <button type="button" class="btn-info btn-lg btn-block m-5">VITAL MONITORING DASHBOARD</button>
         </a>
         </div>
         <div class="row mb-2">
